@@ -94,7 +94,7 @@ struct ContentView: View {
             formatter.timeStyle  = .short
             
             alertMessaage = formatter.string(from: sleepTime)
-            alertTitle =  "Your ideal bedtimme is..."
+            alertTitle =  "Your ideal bedtime is..."
         } catch {
             alertTitle = "Error"
             alertMessaage = "Sorry, there wasas a  prroblem calculating your bedtimme."

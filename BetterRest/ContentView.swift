@@ -23,7 +23,7 @@ struct ContentView: View {
         NavigationView {
             Form {
                 
-                Section(header: Text("when do you want yo wake up?")
+                Section(header: Text("When do you want yo wake up?")
                     .font(.headline)) {
                                    
                     DatePicker("Please enter a time",
@@ -97,7 +97,7 @@ struct ContentView: View {
             alertTitle =  "Your ideal bedtime is..."
         } catch {
             alertTitle = "Error"
-            alertMessaage = "Sorry, there wasas a  prroblem calculating your bedtimme."
+            alertMessaage = "Sorry, there was a  problem calculating your bedtime."
         }
         
         showingAlert = true
